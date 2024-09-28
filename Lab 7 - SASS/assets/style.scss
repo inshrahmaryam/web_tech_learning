@@ -1,0 +1,59 @@
+@import "variables";
+// $default-heading-font-size:30px;
+// $default-paragraph-font-size:20px;
+// $default-heading-bg:teal;
+// $default-heading-text-color:white;
+// $text-transform-upper:uppercase;
+// $text-transform-lower:lowercase;
+// $default-padding:30px;
+@import "navbar";
+@mixin border-radius($value){
+    border-radius: $value;
+}
+@mixin border-radius($value){
+    -webkit-border-radius:$value;
+    -moz-border-radius:$value;
+    border-radius:$value;
+}
+// @mixin box-shadow(){
+//     box-shadow: $top, $left, $blur, $color;
+// }
+
+.heading{
+    @include border-radius(50px);
+    text-transform:$text-transform-upper;
+   padding:$default-padding;
+   color:$default-heading-text-color;
+   background-color: $default-heading-bg;
+   font-size:$default-heading-font-size;
+//    @include box-shadow(2px,5px,0,black)
+}
+
+.container{
+    @include border-radius(20px);
+    color:brown;
+    height:400px;
+    width:100%;
+    margin:30px;
+    background-color: bisque;
+}
+.breadcrumb{
+    font-family:'Times New Roman', Times, serif;
+    color:#fff;
+}
+ul{
+display:flex;
+width:100%;
+justify-content: center;
+background-color: black;
+}
+li{
+margin:20px;
+}
+a{
+text-transform: $text-transform-upper;
+color:white;
+}
+a:hover{
+    cursor:pointer;
+}

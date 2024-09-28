@@ -1,0 +1,22 @@
+@media screen and (min-width:500px){
+    h1{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding:50px;
+        color:white;
+        background-color: tomato;
+        text-transform: uppercase;
+        font-size: 58px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:1220px){
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        padding:50px;
+        color:peru;
+        background-color: yellowgreen;
+        text-transform: uppercase;
+        font-size: 58px;
+        text-align: center;
+    }
+}

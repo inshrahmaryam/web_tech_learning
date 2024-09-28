@@ -1,0 +1,3 @@
+[submodule "web_tech_learning"]
+	path = web_tech_learning
+	url = https://github.com/inshrahmaryam/web_tech_learning.git
